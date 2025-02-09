@@ -1,3 +1,31 @@
+# OpenAI Quiz Generator
+
+A Next.js application that generates quizzes on any topic using OpenAI's API. Users can test their knowledge with automatically generated multiple-choice questions.
+
+## Features
+
+- Generate quizzes on any topic
+- 10 multiple-choice questions per quiz
+- Dark/Light mode support
+- Score tracking
+- Responsive design
+- Instant feedback
+
+## Prerequisites
+
+Before you begin, ensure you have:
+- Node.js (v18 or higher)
+- npm or yarn
+- OpenAI API key
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/s1kopath/oprnaiquiz.git
+cd oprnaiquiz
+```
+```plaintext
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +62,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
