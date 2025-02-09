@@ -14,6 +14,7 @@ A Next.js application that generates quizzes on any topic using OpenAI's API. Us
 ## Prerequisites
 
 Before you begin, ensure you have:
+
 - Node.js (v18 or higher)
 - npm or yarn
 - OpenAI API key
@@ -21,11 +22,45 @@ Before you begin, ensure you have:
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/s1kopath/oprnaiquiz.git
 cd oprnaiquiz
 ```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Create a `.env.local` file in the root directory and add your OpenAI API key:
+
 ```plaintext
+OPENAI_API_KEY=your_api_key_here
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Usage
+
+1. Enter any topic in the input field
+2. Click "Generate Quiz" to create a new quiz
+3. Answer the multiple-choice questions
+4. Submit your answers to see your score
+5. Try different topics to test your knowledge!
+
+````plaintext
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -40,7 +75,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -62,4 +97,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+```
+
 ```
